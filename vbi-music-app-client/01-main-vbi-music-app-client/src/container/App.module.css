@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
+
+#AppHeader{
+    background: #f5f8fc;
+    padding: 0.5rem;
+}
+.RedBorder{
+    border: 1px solid red;
+}
+
+#ContentContainer{
+    margin: 2% 0;
+}
+
+#AppLogo{
+    height: 150px;
+    width: auto;
+}
+
+#SongSearch{
+    margin-top: 1%;
+}
+
+.BtnGroup > button {
+    margin-right: 1rem;
+}
+
+#AppName{
+    font-family: 'Hanalei Fill', cursive;
+}
+
+.AppContainer{
+}
+
+#AppContainer img{
+    opacity: 0.5;
+}

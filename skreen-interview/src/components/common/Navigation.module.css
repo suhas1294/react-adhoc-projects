@@ -1,0 +1,86 @@
+nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#Logo{
+    order: 1;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 1.5rem;
+    padding-left: 2%;
+}
+
+nav ul {
+    width: 50%;
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+}
+
+li a:hover{
+    border-bottom: 2px solid #0563eb;
+    background: #ebf2fc;
+    color: #0563eb;
+}
+
+li a:active,
+li a.active{
+    background: #0563eb ;
+    color: white;
+}
+
+#Hamburger {
+    order: 2;
+    display: none;
+}
+
+#Hamburger div{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+#TopToolBar{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 500px) {
+    nav ul {
+        width: 100%;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+    nav ul li {
+        padding: 5% 1% 5% 0;
+    }
+    #TopToolBar{
+        width: 100%;
+    }
+    #Hamburger{
+        display: inline;
+        margin-right: 2%;
+    }
+}
+
+.Close {
+    display: none;
+}

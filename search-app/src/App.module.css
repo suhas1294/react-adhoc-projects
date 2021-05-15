@@ -1,0 +1,60 @@
+.App {
+  margin-top: 5%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+input{
+  padding: 1%;
+  width: 40%;
+  font-size: 1.2rem;
+  border-radius: 2rem;
+}
+
+input:focus{
+  outline: none;
+}
+
+#SearchResultDiv{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 40%;
+  box-shadow: 3px 3px 6px grey;
+}
+
+#SearchResultDiv > p {
+  width: 98%;
+  text-align: left;
+  padding: 1% 1%;
+  margin-bottom: 5px;
+}
+
+.SearchHover:hover{
+  font-size: 1.1rem;
+  box-shadow:0 4px 6px -6px grey;
+}
+
+
+@media (max-width: 500px) {
+  body{
+    height: 100%;
+  }
+  img{
+    width: 50%;
+  }
+  input{
+    width: 90%;
+    padding: 2%;
+  }
+  #SearchResultDiv{
+    width: 92%;
+    max-height: 400px;
+    overflow-y: scroll;
+  }
+  
+}

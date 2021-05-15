@@ -1,0 +1,101 @@
+.App {
+    margin: 1%;
+    position: relative;
+    left: 30%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 95vh;
+    box-shadow: 4px 4px 8px grey;
+    max-width: 600px;
+}
+
+#UserInput{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 95%;
+}
+
+#UserInput input {
+    padding: 2%;
+    font-size: 1.5rem;
+    width: inherit; 
+}
+
+#UserInput button{
+    background: #FF7F50;
+}
+
+#UserInput button:hover{
+    background: #69c27a;
+}
+
+#LayoutHolder{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+    min-height: 98%;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+#ChatSection{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    max-width: inherit;
+    min-height: 80%;
+    max-height: 80%;
+    overflow-y: scroll;
+}
+
+.SingleChat{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+}
+
+.SingleChat > div > p{
+    margin: 0;
+    float: right;
+    position: relative;
+    background: lightblue;
+    padding: 5px;
+    width: max-content;
+    margin: 10px;
+    border-radius: 15%;
+}
+
+.MeaningCards{
+    max-width: 100%;
+    margin: 2% 2%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    overflow-x: scroll;
+}
+
+.Mcard{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 5px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 8px #8eb3fa;
+    margin-right: 1rem;
+    max-width: 90%;
+    min-width: 90%;
+    background: #ebf2ff;
+}
+
+.Highlighter{
+    color: red;
+    font-weight: bold;
+    text-transform: capitalize;
+}

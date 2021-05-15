@@ -1,0 +1,35 @@
+#AskUsername{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: 1px solid black;
+    width: 90%;
+    padding: 3%;
+    font-size: 1.5rem;
+}
+
+#AskUsername:focus{
+    outline: none;
+}
+
+.GreenBtn{
+    text-decoration: none;
+    background: #bbffba;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 2%;
+    margin: 1%;
+}
+
+.FeatureCard{
+    width: 80%;
+    box-sizing: border-box;
+    padding: 1rem;
+    box-shadow: 4px 4px 8px grey;
+    margin: 1%;
+}
+
+.FeatureCard:hover{
+    cursor: pointer;
+}

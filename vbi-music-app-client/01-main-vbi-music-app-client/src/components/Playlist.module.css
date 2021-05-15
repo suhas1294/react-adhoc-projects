@@ -1,0 +1,13 @@
+#PlaylistCard{
+    box-shadow: 3px 3px 8px grey;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.PlaylistTitle{
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: bold;
+}

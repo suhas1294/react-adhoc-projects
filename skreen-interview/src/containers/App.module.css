@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(212,242,249,1) 0%, rgba(235,242,235,1) 65%, rgba(255,255,255,1) 100%);
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background: #b0ffc5;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
