@@ -6,3 +6,5 @@ redux-todo/01-main-redux-todo/.gitignore
 redux-todo/02-spinner_implementation/.gitignore
 redux-todo/03-redux-single-reducer/.gitignore
 redux-todo/04-redux-implementation/.gitignore
+photo_gallery_interview/.gitignore
+email_client/.gitignore
